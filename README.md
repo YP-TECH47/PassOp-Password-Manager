@@ -1,16 +1,21 @@
-# React + Vite
+# Pass Op
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pass Op is a basic password manager application built using React.js and Tailwind CSS. It allows users to store and manage passwords for multiple websites in one place.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add and store website URLs, usernames, and passwords.
+- View and manage saved credentials.
+- Edit or delete stored passwords.
+- Simple and responsive user interface.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js** – Frontend development
+- **Tailwind CSS** – Styling and responsive design
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pass Op provides a simple interface for organizing website credentials, making them easier to access and manage from a single application.
+
+**Note:** This is a basic learning project and should not be used to store real passwords unless appropriate security measures are implemented.
